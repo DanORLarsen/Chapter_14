@@ -14,7 +14,7 @@ public class Exercise14 extends Application {
         for (int r = 0; r < 8; r++) {
             for (int c = 0; c < 8; c++) {
                 i++;
-                Rectangle r1 = new Rectangle(100, 100,100,100);
+                Rectangle r1 = new Rectangle(25,25);
                 if (i % 2 == 0)
                 {r1.setFill(Color.WHITE);}
                 pane.add(r1, c, r);
